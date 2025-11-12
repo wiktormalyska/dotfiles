@@ -1,0 +1,27 @@
+# Fish shell
+fish/.config/fish/fish_variables
+fish/.config/fish/fishd.*
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Cache
+**/cache/
+**/.cache/
+
+# Local settings
+*.local
