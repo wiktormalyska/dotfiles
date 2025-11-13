@@ -1,5 +1,6 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    set -g fish_greeting ''
+
 end
 
 if type -q wal
@@ -8,3 +9,6 @@ end
 
 set -gx NPM_CONFIG_PREFIX ~/.npm-global
 fish_add_path ~/.npm-global/bin
+
+oh-my-posh init fish --config ~/.config/oh-my-posh/uew.omp.json | source
+neofetch
